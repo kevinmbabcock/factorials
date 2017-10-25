@@ -1,9 +1,7 @@
 var factorial = function(number) {
   var total = 1;
   for (index = number; index > 1; index -=2) {
-    var total = total * (number * (index-1));
-
-    number -=2;
+    var total = total * (index * (index-1));
 
   };
   return total;
